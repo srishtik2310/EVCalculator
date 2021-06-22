@@ -1,0 +1,58 @@
+EV Motor Requirement Report with battery requirements.
+
+Motor Rating:
+    Considering Weight kg max weight of the vehicle,
+
+    Vm  = Max_speed m/s
+    radius of wheel (r) = Radius m
+    Angular velocity (ω) = V/r = Angular_velocity rad/s = Wheel_rpm rpm.
+    Before trans-axle reduction, RPM of motor = Motor_rpm rpm.
+
+    Total Force = Force for linear acceleration + Force to overcome rolling resistance +
+                            Force to overcome gradient + Force to overcome aerodynamic drag
+
+    Force for linear acceleration = Fl = m*a = Linear_acc_force N
+
+    Force to overcome rolling resistance = Fr = μr*N = Rolling_resistance_force N
+    Force to overcome gradient = Fg = m*g*sin(θ) = Gradient_force N.
+    Force to overcome aerodynamic frag = Fa = Cd * A * 0.5 * r * Vm2 = Aerodynamic_force N
+
+    Max Total Force = Ft = Fl + Fr + Fg + Fa = Total_force_max N
+
+    Torque required = Ft * (radius of wheel) = Total_torque_max Nm
+    After the gear reduction and considering efficiency of gear box,
+    Torque required at the motor shaft = Motor_torque_max Nm.
+
+    Total force (excluding gradient) = Total_force_min N
+    Torque required = Total_torque_min Nm
+    After the gear reduction,
+    Torque required at the motor shaft = Motor_torque_min Nm.
+
+
+    Rating of the motor:
+
+    Power Rating:
+    Max Power rating of motor required   =  Motor_power_max W
+    Min Power rating of motor required =  Motor_power_min W
+
+    Torque Rating:
+    Max Torque rating of motor required = Motor_torque_max Nm
+    Min Torque rating of motor required  = Motor_torque_min Nm
+
+    Speed Rating:
+
+    Max RPM of motor required = Motor_rpm rpm.
+
+Battery Rating:
+    Continuous Motor Rating of the Motor = Continuous_motor_rating kW.
+    Average speed of the vehicle = Average_speed km/h.
+    Nominal Voltage of the Battery pack = Nominal_voltage V.
+    Expected Range = Expected_range Km.
+
+    time of running = Time hr.
+    Continuous current drawn by the motor = Current A
+    Battery capacity = Battery_capacity_Ah Ah = Battery_capacity_kWh kWh.
+
+
+
+
