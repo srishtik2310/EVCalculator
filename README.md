@@ -36,3 +36,7 @@ pip3 install pillow
 ```
 
 3. Run the code using code runner button in VS code.
+You should see something lie this when you press run. 
+![plot](./Assets/view.png)
+
+To further see what the program is capable, please refer this [linkedin post](https://www.linkedin.com/posts/srishtik-bhandarkar_tkinter-python-exceptionhanndling-activity-6813105652647493632-D0DJ?utm_source=share&utm_medium=member_desktop)
