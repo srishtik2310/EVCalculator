@@ -5,15 +5,15 @@ To use this project just follow the simple steps.
 1. clone the repository in your favourite location (for example in Documents folder) using your favourite Command line tools. (Gitbash on windows or terminal in linux/mac)
 
 ```
-$ cd Documents
+cd Documents
 ```
 
 Clone with SSH
 ```
-$ git clone git@github.com:srishtik2310/EVCalculator.git
+git clone git@github.com:srishtik2310/EVCalculator.git
 ```
 
 clone with HTTPS
 ```
-$ git clone https://github.com/srishtik2310/EVCalculator.git
+git clone https://github.com/srishtik2310/EVCalculator.git
 ```
