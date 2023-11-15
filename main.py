@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 from tkinter import filedialog
+from PIL import ImageTk, Image
 import math
 
 GRAVITY = 9.81
@@ -193,7 +194,7 @@ def calculate_battery():
     new_window.title("Battery size calculator")
     new_window.resizable(False, False)
     battery_canvas = Canvas(new_window, width= 350, height=250, highlightthickness=0)
-    battery_image = PhotoImage(file="battery.png")
+    battery_image = ImageTk.PhotoImage(Image.open("battery.png"))
     battery_canvas.create_image(175, 125, image=battery_image)
     battery_canvas.grid(row=0, column=0, columnspan=2)
 
@@ -320,7 +321,7 @@ window.config(bg="white", padx=30)
 window.title("EV calculator")
 window.minsize(400, 400)
 canvas = Canvas(width=500, height=210, highlightthickness=0)
-ev_image = PhotoImage(file="ev.png")
+ev_image = ImageTk.PhotoImage(Image.open("ev.png"))
 canvas.create_image(200, 100, image=ev_image)
 canvas.grid(row=0, column=0, columnspan=2)
 
