@@ -17,3 +17,22 @@ clone with HTTPS
 ```
 git clone https://github.com/srishtik2310/EVCalculator.git
 ```
+
+2. Open code in VS code.
+Note: this wiuld only work if VS code is installed with python interpretter configured.
+Please install python interpretter in VS code using extensions tab.
+```
+cd EVCalculator
+code .
+```
+This will now open project in VS code.
+
+Install [pip](https://pip.pypa.io/en/stable/installation/). If not already installed using terminal in VS code.
+
+Install required dependencies 
+```
+pip3 install tk
+pip3 install pillow
+```
+
+3. Run the code using code runner button in VS code.
